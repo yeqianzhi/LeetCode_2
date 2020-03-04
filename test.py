@@ -9,10 +9,12 @@
 # s = s[2:]
 # print(s)
 
-s = '{[]}()'
-ls = []
+# s = '{[]}()'
+# ls = []
+#
+# for i in range(len(s)):
+#     if not ls:
+#         ls.append(s[i])
+#         print("4:", ls)
 
-for i in range(len(s)):
-    if not ls:
-        ls.append(s[i])
-        print("4:", ls)
+
