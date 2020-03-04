@@ -18,3 +18,7 @@
 #         print("4:", ls)
 
 
+str = "  a  "
+result = str.split(" ")
+print(result)
+print(len(result[-1]))
