@@ -18,7 +18,15 @@
 #         print("4:", ls)
 
 
-str = "  a  "
-result = str.split(" ")
-print(result)
-print(len(result[-1]))
+# str = "  a  "
+# result = str.split(" ")
+# print(result)
+# print(len(result[-1]))
+
+# str = '10110'
+#
+# for i, num in enumerate(reversed(str)):
+#     print(i, num)
+
+for i in range(4, -1, -1):
+    print(i)
