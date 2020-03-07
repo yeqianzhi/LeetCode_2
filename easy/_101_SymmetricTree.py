@@ -23,8 +23,11 @@
 
 如果你可以运用递归和迭代两种方法解决这个问题，会很加分。
 
-"""
 
+"""
+"""
+递归
+"""
 
 class Solution:
     def isSymmetric(self, root):
