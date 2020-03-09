@@ -53,10 +53,20 @@
 # str = ''
 # str = str + 'A'
 # print(str)
+#
+# result = ord('A')
+# print(type(result), result)
+# result += 1
+# print(result)
+# result = chr(result)
+# print(result)
 
-result = ord('A')
-print(type(result), result)
-result += 1
-print(result)
-result = chr(result)
-print(result)
+def haha(n):
+
+    mul = 1
+    for i in range(1, n+1):
+        mul *= i
+
+    return mul
+
+print(haha(10))

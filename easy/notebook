@@ -5,3 +5,6 @@
 - 静态变量：在class内、但不在class的方法内，这就是静态变量-->类名.变量名
 - 实例变量：在class的方法内，用self修饰的变量，这就是实例变量
 
+#### Python ASCII码 与字符相互转换
+- 将ASCII码转为整型 ord('A')
+- 将整型转为ASCII码 chr(65)
