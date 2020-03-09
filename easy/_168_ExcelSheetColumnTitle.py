@@ -83,6 +83,6 @@ class Solution:
 
 
 s = Solution()
-n = 2
+n = 18278
 result = s.convertToTitle(n)
 print(result)
