@@ -41,20 +41,31 @@ S 和 T 只含有小写字母以及字符 '#'。
 
 """
 
+
 class Solution:
     def backspaceCompare(self, S, T):
-        S = Solution.backSpace(S)
-        T = Solution.backSpace(T)
-        return S == T
+    #     S = Solution.backSpace(S)
+    #     T = Solution.backSpace(T)
+    #     return S == T
+    #
+    # def backSpace(str):
+    #     stack = []
+    #     for i in str:
+    #         if i != '#':
+    #             stack.append(i)
+    #         elif stack:
+    #             stack.pop()
+    #     return stack
 
-    def backSpace(str):
-        stack = []
-        for i in str:
-            if stack and i == '#':
-                stack.pop()
-            elif i != '#':
-                stack.append(i)
-        return stack
+        def build(S):
+            ans = []
+            for c in S:
+                if c != '#':
+                    ans.append(c)
+                elif ans:
+                    ans.pop()
+            return "".join(ans)
+        return build(S) == build(T)
 
 
 obj = Solution()
