@@ -61,13 +61,11 @@ class MyQueue:
             self.stack_1.append(self.stack_2.pop())
         return tmp
 
-
     def empty(self) -> bool:
         """
         Returns whether the queue is empty.
         """
         return not self.stack_1
-
 
 
 # Your MyQueue object will be instantiated and called as such:
